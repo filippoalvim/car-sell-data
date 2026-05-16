@@ -1,32 +1,36 @@
-# Análise de Anúncios de Venda de Carros
+# Car Sales Ads Analysis Dashboard
 
-Aplicativo web desenvolvido como projeto do Sprint 5 do TripleTen, focado em análise exploratória de dados de anúncios de venda de veículos nos EUA.
+Web application developed as the Sprint 5 project for TripleTen's Data Science bootcamp, focused on exploratory data analysis of used car listings from the US market.
 
-## Descrição
+## Description
 
-Este aplicativo permite explorar visualmente um conjunto de dados com anúncios de venda de carros. O usuário pode gerar gráficos interativos diretamente no navegador, sem precisar de nenhuma instalação local.
+This app allows users to visually explore a dataset of used car ads through interactive charts rendered directly in the browser, with no local installation required.
 
-## Funcionalidades
+## Features
 
-- **Histograma de quilometragem**: visualiza a distribuição da quilometragem (odômetro) dos veículos anunciados.
-- **Gráfico de dispersão**: exibe a relação entre o preço e a quilometragem dos veículos.
-- Gráficos interativos gerados com Plotly Express.
-- Interface simples com caixas de seleção para ativar cada visualização.
+- **Data viewer**: browse the full dataset with an option to filter out manufacturers with fewer than 1000 listings
+- **Vehicle types by manufacturer**: stacked bar chart showing the distribution of vehicle types across manufacturers
+- **Condition vs model year histogram**: histogram of vehicle model years broken down by condition
+- **Price comparison between manufacturers**: select two manufacturers and compare their price distributions, with an optional histogram normalization toggle
 
-## Tecnologias utilizadas
+## Tech stack
 
 - Python
 - Pandas
 - Plotly Express
 - Streamlit
 
-## Como executar localmente
+## Running locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Aplicativo publicado
+## Live app
 
-Acesse o aplicativo em: https://tripleten-sprint5.onrender.com
+https://tripleten-sprint5.onrender.com
+
+## Repository
+
+https://github.com/filippoalvim/tripleten-sprint5
