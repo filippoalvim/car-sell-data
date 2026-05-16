@@ -29,7 +29,7 @@ streamlit run app.py
 
 ## Live app
 
-https://tripleten-sprint5.onrender.com
+https://tripleten-sprint5-3flc.onrender.com
 
 ## Repository
 
